@@ -1,1 +1,1 @@
-docker run -i -t alpine /bin/sh
+docker run -d --name alpine alpine tail -f /dev/null
